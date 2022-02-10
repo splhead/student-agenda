@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Agenda</string>
+    <string name="fab_add_student">Adicionar estudante</string>
+    <string name="til_name">Nome</string>
+    <string name="til_email">E-mail</string>
+    <string name="til_phone">Telefone</string>
+    <string name="til_birthday">Nascimento</string>
+    <string name="b_save_student">Salvar</string>
+    <string name="title_save_student">Novo estudante</string>
+    <string name="birthday_datepicker_title">Data de Nascimento</string>
+    <string name="all_fields_required">Por favor preencha todos os campos</string>
+    <string name="empty_agenda">Sem estudantes aqui ainda, faça novas amizades!</string>
+    <string name="student_deleted">Estudante apagado</string>
+    <string name="search_title">Pesquisar</string>
+    <string name="query_hint">Digite para pesquisar</string>
+    <string name="new_student_added">Novo estudante salvo</string>
+    <string name="user_updated">Estudante atualizado</string>
+</resources>

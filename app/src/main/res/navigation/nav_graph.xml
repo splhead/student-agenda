@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/studentListFragment">
+
+    <fragment
+        android:id="@+id/studentListFragment"
+        android:name="com.splhead.studentagenda.view.StudentListFragment"
+        android:label="fragment_student_list"
+        tools:layout="@layout/fragment_student_list" >
+        <action
+            android:id="@+id/action_studentListFragment_to_saveStudentFragment"
+            app:destination="@id/saveStudentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/saveStudentFragment"
+        android:name="com.splhead.studentagenda.view.SaveStudentFragment"
+        android:label="fragment_save_student"
+        tools:layout="@layout/fragment_save_student" >
+
+        <argument
+            android:name="student_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_saveStudentFragment_to_studentListFragment"
+            app:destination="@id/studentListFragment" />
+    </fragment>
+</navigation>
